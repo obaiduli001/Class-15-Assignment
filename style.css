@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.fix-width{
+    width: 1270px;
+    margin: auto;
+}
+
+.clear-fix::after{
+content: "";
+clear: both;
+display: block;
+}
+
+.manu-div{
+    background-color: #0ed9b1;
+}
+
+
+
+.manu-div h1 a{
+    float: left;
+    width: 30%;
+    color: white;
+    text-decoration: none;
+}
+
+.manu-list ul{
+    float: left;
+    width: 70%;
+    text-align: right;
+}
+.manu-list ul li{
+    display: inline-block;
+   
+}
+.manu-list ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 0 20px;
+    line-height: 74px;
+    color: white;
+    transition: .5s;
+
+}
+.manu-list ul li a:hover{
+    color: green;
+    background-color:  #1abc9c;
+}
+
+
+/* <!-- This is banner Section   -->  */
+
+
+.banner-div{
+    background: url("./img/header-bg01.jpg") no-repeat center;
+    background-size: cover;
+   text-align: center;
+   padding: 200px 0;
+   /* padding-top: 250px; */
+}
+
+.banner-div h1 {
+    color: wheat;
+    font-size: 94px;
+}
+.banner-div h3 {
+    color: white;
+    font-size: 27px;
+    margin: 18px 0;
+    margin-bottom: 60px;
+}
+.banner-div a {
+    color: white;
+    text-decoration: none;
+    font-size: 22px;
+    margin-top: 48px;
+    font-weight: 100;
+    border: 3px solid white;
+    padding: 11px 23px;
+    border-radius: 5px;
+    transition: .5s;
+}
+
+.banner-div a:hover{
+    background-color: rgba(0, 0, 0, 0.608);
+}
+
+
+
+
+
+
+
+/* <!-- This is about section  -->  */
+
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+
+/* <!-- This is about section  -->  */
+.about{}
+.about h2 {
+    font-size: 30px;
+    margin-top: 60px;
+}
+.about p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+/* <!-- This is Service Section  -->  */
+.service-div{
+    margin-top: 80px;
+    border-bottom: 2px solid #1abc9c;
+   
+}
+.service-item{
+    float: left;
+    max-width: 22%;
+   
+    box-sizing: border-box;
+    padding: 10px 20px;
+    margin-left: 1%;
+    margin-right: 1%;
+    padding-bottom: 150px;
+}
+
+.service-item span {
+    height: 60px;
+    width: 60px;
+    font-size: 40px;
+    border-radius: 20px 0;
+    color: aqua;
+    line-height: 60px;
+   
+    display: inline-block;
+    margin-top: 20px;
+}
+.service-item h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.service-item p{
+    font-size: 15px;
+}
+
+
+
+/* <!-- This is intro Section  -->  */
+
+.intro-div{
+    margin-top: 70px;
+}
+.intro-div img {
+    float: left;
+    width: 35%;
+    height: 388px;
+}
+
+
+.intro-left{}
+.intro-left .intro-item{
+    float: right;
+    width: 60%;
+}
+.intro-left .intro-item h2{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-size: 30px;
+}
+.intro-left .intro-item p{
+    
+}
+
+
+/* <!-- This is contact section  -->  */
+.contact{
+    margin-top: 150px;
+}
+
+.contact-list{}
+.contact-list .all-list{
+margin-top: 50px;
+    float: left;
+    width: 33.3%;
+    line-height: 30px;
+
+   
+}
+.contact-list .all-list i{
+    color: aqua;
+    font-size: 25px;
+}
+
+/* <!-- This is footer section  -->  */
+
+.icon-manu{
+    background-color:aqua;
+    margin-top: 100px;
+}
+.icon-manu a{
+    text-decoration: none;
+    font-size: 30px;
+    height: 30px;
+   width: 30px;
+ 
+    background-color: rgb(23, 24, 24);
+    margin-left: 10px;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+   transition: .5s;
+}
+.icon-manu a:hover{
+    color: black;
+    background-color:#ddd;
+    transform: scale(1.2);
+}
+
+.all-icon{
+    padding: 30px 0;
+}
+
+
+/* <!-- This is copyright section -->  */
+
+.copyright{
+    background-color: rgb(39, 35, 35);
+    padding: 20px 0;
+    color: rgb(92, 87, 87);
+    font-weight: 400;
+}
